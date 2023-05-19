@@ -41,12 +41,12 @@ def IPv4only(file_name, out):
                 count += 1
                 print(count)
 
-def EthernetBroadCast(file_name, out)
+"""def EthernetBroadCast(file_name, out)
     count = 0
     input_packet = PcapReader(file_name)
     output_packet = PcapWriter('output_file.pcap', append=True) #change output file -> based on user input
     for (pkt_data, pkt_metadata,) in RawPcapReader(file_name):
-            
+  """          
 
 
 
